@@ -31,7 +31,7 @@ jobs:
 
       - run: yarn lint
 
-      - run: oxfmt . --check
+      - run: yarn oxfmt . --check
 
       - run: yarn build
 
